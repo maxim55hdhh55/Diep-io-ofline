@@ -1,0 +1,6 @@
+{
+  "name": "Diep.io Offline",
+  "description": "A high-fidelity singleplayer clone of Diep.io featuring realistic physics, bullet penetration, advanced bot state-machines, upgrades, and multiple game modes (FFA, TDM, Maze, Domination).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

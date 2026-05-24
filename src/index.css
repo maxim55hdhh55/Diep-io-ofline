@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-diep {
+    font-family: 'Arial Black', 'Arial Bold', 'Impact', sans-serif;
+  }
+  
+  .text-shadow-diep {
+    text-shadow: 1.5px 1.5px 0px #555555;
+  }
+
+  .text-shadow-diep-lg {
+    text-shadow: 3px 3px 0px #555555;
+  }
+
+  .border-diep {
+    border: 3px solid #555555;
+  }
+
+  .border-diep-thick {
+    border: 4px solid #555555;
+  }
+
+  .shadow-diep {
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.15);
+  }
+
+  .shadow-diep-lg {
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+}
+
+/* Custom smooth transitions and animations */
+@keyframes bounce-short {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.animate-bounce-short {
+  animation: bounce-short 2s infinite ease-in-out;
+}
